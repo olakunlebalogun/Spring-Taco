@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Taco</title>
+</head>
+<body>
+<h1>Hello People, This is Olakunle Balogun</h1>
+<input type="text" name="userName" value="James Carrot" th:value="${user.name}" />
+<!--<p th:text="#{home.welcome}">Welcome to our grocery store!</p>-->
+<p>Today is: <span th:text="${today}">13 february 2011</span></p>
+<img th:src="@{images/taco2.png}" width="1000" alt="no show"/>
+</body>
+</html>
